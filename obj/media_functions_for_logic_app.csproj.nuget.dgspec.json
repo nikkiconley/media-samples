@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MediaSamples\\media-functions-for-logic-app\\media_functions_for_logic_app.csproj": {}
+  },
+  "projects": {
+    "C:\\MediaSamples\\media-functions-for-logic-app\\media_functions_for_logic_app.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MediaSamples\\media-functions-for-logic-app\\media_functions_for_logic_app.csproj",
+        "projectName": "media_functions_for_logic_app",
+        "projectPath": "C:\\MediaSamples\\media-functions-for-logic-app\\media_functions_for_logic_app.csproj",
+        "packagesPath": "C:\\Users\\niconley\\.nuget\\packages\\",
+        "outputPath": "C:\\MediaSamples\\media-functions-for-logic-app\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\niconley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.Azure.WebJobs.Extensions.DocumentDB": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[1.0.29, )"
+            },
+            "windowsazure.mediaservices": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "windowsazure.mediaservices.extensions": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
