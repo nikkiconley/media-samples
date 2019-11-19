@@ -22,6 +22,9 @@ To enable streaming, go to the Azure portal, select the Azure Media Services acc
 If not already done : fork the repo, or download the repo.
 
 Open the sln file in visual studio and deploy the functions to Azure.
+Once deplooyed, add the Application Settings as follows
+
+![Screen capture](images/FunctionApp-Settings.png?raw=true)
 
 
 
